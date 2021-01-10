@@ -1,0 +1,11 @@
+.banner {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  float: left;
+}
+.banner__ {
+  position: absolute;
+}
