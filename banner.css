@@ -1,11 +1,26 @@
 .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+.banner div {
+  padding: 10px;
   background-color: black;
   color: white;
   display: flex;
   justify-content: flex-start;
-  font-size: 20px;
+  font-size: 15px;
   float: left;
 }
-.banner__ {
-  position: absolute;
+.banner img {
+  width: 100px;
+  height: 50px;
+}
+
+.banner__moreicons span {
+  padding: 10px;
+  color: white;
+  display: inline-block;
 }
